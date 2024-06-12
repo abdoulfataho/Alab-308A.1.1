@@ -1,18 +1,18 @@
-// let counter = 0
-// function incrementCall (){
-//    try{ counter++;
+let counter = 0
+function incrementCall (){
+   try{ counter++;
 
-//     console.log("Global counter :",counter);
-//     incrementCall();
-//    }
-//    catch(error)
-//    {console.error("error occured :",error);
-// console.log("Value of global counter :",counter)}
-// }
-// incrementCall();
+    console.log("Global counter :",counter);
+    incrementCall();
+   }
+   catch(error)
+   {console.error("error occured :",error);
+console.log("Value of global counter :",counter)}
+}
+incrementCall();
 
-// part two
-let testArray = [[1],2,[9],4,["Abdoul",["test"],[]]]
+part two
+let testArray = [[1],2,[9],4,["Abdoul",["test"]]]
 let newarr = []
 
 
@@ -27,3 +27,4 @@ for (let i = 0; i <arr.length;i++){
 }
 console.log(flattenArr(testArray))
 console.log(newarr)
+
